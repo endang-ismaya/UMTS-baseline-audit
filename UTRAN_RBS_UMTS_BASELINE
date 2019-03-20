@@ -1,0 +1,1069 @@
+W14B;CoverageRelation;CoverageRelationId;CELLNAME;Not Auditable
+W14B;CoverageRelation;relationCapability.hsLoadSharing;1;Local
+W14B;CoverageRelation;relationCapability.hsCellSelection;0;Global
+W14B;CoverageRelation;relationCapability.dchLoadSharing;0;Global
+W14B;CoverageRelation;hsPathlossThreshold;0;Local
+W14B;CoverageRelation;hsIflsDownswitch;0;Global
+W14B;CoverageRelation;coverageIndicator;1;Local
+W14B;CoverageRelation;utranCellRef;1;Not Auditable
+W14B;Eul;administrativeState;1;Not Auditable
+W14B;Eul;EulId;1;Not Auditable
+W14B;Eul;availabilityStatus;1;Not Auditable
+W14B;Eul;edchTti2Support;1;Not Auditable
+W14B;Eul;eulDchBalancingSupport;1;Not Auditable
+W14B;Eul;eulTdSchedulingSupport;1;Not Auditable
+W14B;Eul;improvedL2Support;1;Not Auditable
+W14B;Eul;operationalState;1;Not Auditable
+W14B;Eul;userLabel;1;Not Auditable
+W14B;Eul;eulDchBalancingEnabled;1;Global
+W14B;Eul;eulDchBalancingLoad;32;Global
+W14B;Eul;eulDchBalancingOverload;0;Global
+W14B;Eul;eulDchBalancingReportPeriod;200;Global
+W14B;Eul;eulDchBalancingSuspendDownSw;0;Global
+W14B;Eul;eulDchBalancingTimerNg;1000;Global
+W14B;Eul;eulLoadTriggeredSoftCong;0;Global
+W14B;Eul;eulMaxTargetRtwp;-499;Global
+W14B;Eul;numEagchCodes;1;Global
+W14B;Eul;numEhichErgchCodes;CBU = 1 / DUW = 4;Global
+W14B;Eul;pathlossThresholdEulTti2;850 = 95 / 1900 = 120;Local
+W14B;Eul;releaseAseUlNg;3;Global
+W14B;Eul;threshEulTti2Ecno;-8;Global
+W14B;EutranFreqRelation;EutranFreqRelationId;1;Not Auditable
+W14B;EutranFreqRelation;blacklistedCell;1;Not Auditable
+W14B;EutranFreqRelation;eutranFrequencyRef;1;Not Auditable
+W14B;EutranFreqRelation;userLabel;1;Not Auditable
+W14B;EutranFreqRelation;barredCnOperatorRef;1;Not Auditable
+W14B;EutranFreqRelation;threshHigh;10;Global
+W14B;EutranFreqRelation;threshHigh2;10;Global
+W14B;EutranFreqRelation;threshLow;6;Global
+W14B;EutranFreqRelation;threshLow2;10;Global
+W14B;EutranFreqRelation;redirectionOrder;700 = 1, 1900 = 3, 2100 = 4;Local
+W14B;EutranFreqRelation;qRxLevMin;-122;Global
+W14B;EutranFreqRelation;qQualMin;100;Global
+W14B;EutranFreqRelation;cellReselectionPriority;6,7;Local
+W14B;ExternalGsmCell;qRxLevMin;100;Global
+W14B;ExternalGsmCell;maxTxPowerUl;100;Global
+W14B;ExternalGsmCell;individualOffset;0;Global
+W14B;ExternalGsmCell;bandIndicator;1;Local
+W14B;ExternalUtranCell;qRxLevMin;100;Global
+W14B;ExternalUtranCell;qQualMin;100;Global
+W14B;ExternalUtranCell;maxTxPowerUl;100;Global
+W14B;ExternalUtranCell;individualOffset;0;Global
+W14B;ExternalUtranCell;hsAqmCongCtrlSpiSupport;1:2:3:4:7;Global
+W14B;ExternalUtranCell;cellCapability.hsdschSupport;1;Global
+W14B;ExternalUtranCell;cellCapability.fdpchSupport;0;Global
+W14B;ExternalUtranCell;cellCapability.edchSupport;1;Global
+W14B;ExternalUtranCell;agpsEnabled;1;Global
+W14B;Fach;FachId;1;Not Auditable
+W14B;Fach;administrativeState;1;Not Auditable
+W14B;Fach;availabilityStatus;1;Not Auditable
+W14B;Fach;operationalState;1;Not Auditable
+W14B;Fach;userLabel;1;Not Auditable
+W14B;Fach;sccpchOffset;0;Global
+W14B;Fach;pOffset3Fach;0;Global
+W14B;Fach;pOffset1Fach;0;Global
+W14B;Fach;maxFach2Power;15;Global
+W14B;Fach;maxFach1Power;NonHicap = 53 / Hicap = 18;Global
+W14B;GsmRelation;qOffset1sn;7;Global
+W14B;GsmRelation;mobilityRelationType;1;Global
+W14B;GsmRelation;GsmRelationId;1;Not Auditable
+W14B;GsmRelation;externalGsmCellRef;1;Not Auditable
+W14B;GsmRelation;selectionPriority;1;Not Auditable
+W14B;Hsdsch;HsdschId;1;Not Auditable
+W14B;Hsdsch;administrativeState;1;Not Auditable
+W14B;Hsdsch;availabilityStatus;1;Not Auditable
+W14B;Hsdsch;enhUeDrxSupport;1;Not Auditable
+W14B;Hsdsch;enhancedL2Support;1;Not Auditable
+W14B;Hsdsch;hsAqmCongCtrlSpiSupport;1;Not Auditable
+W14B;Hsdsch;hsAqmCongCtrlSupport;1;Not Auditable
+W14B;Hsdsch;hsFachSupport;1;Not Auditable
+W14B;Hsdsch;operationalState;1;Not Auditable
+W14B;Hsdsch;qam64MimoSupport;1;Not Auditable
+W14B;Hsdsch;qam64Support;1;Not Auditable
+W14B;Hsdsch;userLabel;1;Not Auditable
+W14B;Hsdsch;numHsScchCodes;3;Global
+W14B;Hsdsch;numHsPdschCodes;4;Global
+W14B;Hsdsch;initialCqiRepetitionFactor;1;Global
+W14B;Hsdsch;initialAckNackRepetitionFactor;1;Global
+W14B;Hsdsch;hsMeasurementPowerOffset;80;Global
+W14B;Hsdsch;deltaNack2;8;Global
+W14B;Hsdsch;deltaNack1;6;Global
+W14B;Hsdsch;deltaCqi2;7;Global
+W14B;Hsdsch;deltaCqi1;5;Global
+W14B;Hsdsch;deltaAck2;8;Global
+W14B;Hsdsch;deltaAck1;6;Global
+W14B;Hsdsch;cqiFeedbackCycle;8;Global
+W14B;Hsdsch;codeThresholdPdu656;1;Global
+W14B;IubLink;IubLinkId;1;Not Auditable
+W14B;IubLink;administrativeState;1;Not Auditable
+W14B;IubLink;atmUserPlaneTermSubrackRef;1;Not Auditable
+W14B;IubLink;availabilityStatus;1;Not Auditable
+W14B;IubLink;cachedRemoteCpIpAddress1;1;Not Auditable
+W14B;IubLink;cachedRemoteCpIpAddress2;1;Not Auditable
+W14B;IubLink;controlPlaneTransportOption.atm;1;Not Auditable
+W14B;IubLink;controlPlaneTransportOption.ipv4;1;Not Auditable
+W14B;IubLink;l2EstReqRetryTimeNbapC;1;Not Auditable
+W14B;IubLink;l2EstReqRetryTimeNbapD;1;Not Auditable
+W14B;IubLink;operationalState;1;Not Auditable
+W14B;IubLink;rbsId;1;Not Auditable
+W14B;IubLink;remoteCpIpAddress1;1;Not Auditable
+W14B;IubLink;remoteCpIpAddress2;1;Not Auditable
+W14B;IubLink;reservedBy;1;Not Auditable
+W14B;IubLink;rncModuleRef;1;Not Auditable
+W14B;IubLink;sctpRef;1;Not Auditable
+W14B;IubLink;softCongThreshGbrBwDl;1;Not Auditable
+W14B;IubLink;softCongThreshGbrBwUl;1;Not Auditable
+W14B;IubLink;spare;1;Not Auditable
+W14B;IubLink;userLabel;1;Not Auditable
+W14B;IubLink;userPlaneGbrAdmBandwidthDl;1;Not Auditable
+W14B;IubLink;userPlaneGbrAdmBandwidthUl;1;Not Auditable
+W14B;IubLink;userPlaneGbrAdmMarginDl;1;Not Auditable
+W14B;IubLink;userPlaneGbrAdmMarginUl;1;Not Auditable
+W14B;IubLink;userPlaneIpResourceRef;1;Not Auditable
+W14B;IubLink;userPlaneTransportOption.atm;1;Not Auditable
+W14B;IubLink;userPlaneTransportOption.ipv4;1;Not Auditable
+W14B;IubLink;spareA;0:0:0:0:0:0:0:0:0:0;Global
+W14B;IubLink;ulHwAdm;NonHiCap=85 / HiCap=90;Global
+W14B;IubLink;dlHwAdm;99;Global
+W14B;IubLink;userPlaneGbrAdmEnabled;1;Not Auditable
+W14B;Pch;PchId;1;Not Auditable
+W14B;Pch;administrativeState;1;Not Auditable
+W14B;Pch;availabilityStatus;1;Not Auditable
+W14B;Pch;operationalState;1;Not Auditable
+W14B;Pch;userLabel;1;Not Auditable
+W14B;Pch;sccpchOffset;20;Global
+W14B;Pch;pichPower;-7;Global
+W14B;Pch;pchPower;-4;Global
+W14B;Rach;RachId;1;Not Auditable
+W14B;Rach;availabilityStatus;1;Not Auditable
+W14B;Rach;operationalState;1;Not Auditable
+W14B;Rach;userLabel;1;Not Auditable
+W14B;Rach;administrativeState;1;Not Auditable
+W14B;Rach;subChannelNo;4095;Global
+W14B;Rach;spreadingFactor;32;Global
+W14B;Rach;scramblingCodeWordNo;0;Global
+W14B;Rach;preambleSignatures;65535;Global
+W14B;Rach;preambleRetransMax;8;Global
+W14B;Rach;powerOffsetPpm;-4;Global
+W14B;Rach;powerOffsetP0;3;Global
+W14B;Rach;maxPreambleCycle;4;Global
+W14B;Rach;increasedRachCoverageEnabled;0;Global
+W14B;Rach;constantValueCprach;-19;Global
+W14B;Rach;aichTransmissionTiming;4;Global
+W14B;Rach;aichPower;-6;Global
+W14B;UtranCell;UtranCellId;1;Not Auditable
+W14B;UtranCell;antennaPosition.latitudeSign;1;Not Auditable
+W14B;UtranCell;antennaPosition.latitude;1;Not Auditable
+W14B;UtranCell;antennaPosition.longitude;1;Not Auditable
+W14B;UtranCell;availabilityStatus;1;Not Auditable
+W14B;UtranCell;administrativeState;1;Not Auditable
+W14B;UtranCell;cId;1;Not Auditable
+W14B;UtranCell;cpcSupport;1;Not Auditable
+W14B;UtranCell;directedRetryTarget;1;Not Auditable
+W14B;UtranCell;fdpchSupport;1;Not Auditable
+W14B;UtranCell;ganHoEnabled;1;Not Auditable
+W14B;UtranCell;iubLinkRef;1;Not Auditable
+W14B;UtranCell;localCellId;1;Not Auditable
+W14B;UtranCell;locationAreaRef;1;Not Auditable
+W14B;UtranCell;maximumTransmissionPower;1;Not Auditable
+W14B;UtranCell;mocnCellProfileRef;1;Not Auditable
+W14B;UtranCell;operationalState;1;Not Auditable
+W14B;UtranCell;primaryCpichPower;1;Not Auditable
+W14B;UtranCell;primaryScramblingCode;1;Not Auditable
+W14B;UtranCell;reservedBy;1;Not Auditable
+W14B;UtranCell;routingAreaRef;1;Not Auditable
+W14B;UtranCell;secondaryCpichPower;1;Not Auditable
+W14B;UtranCell;serviceAreaRef;1;Not Auditable
+W14B;UtranCell;serviceRestrictions.csVideoCalls;1;Not Auditable
+W14B;UtranCell;sib1PlmnScopeValueTag;1;Not Auditable
+W14B;UtranCell;uarfcnDl;1;Not Auditable
+W14B;UtranCell;uarfcnUl;1;Not Auditable
+W14B;UtranCell;ueHsThpMeasSupport;1;Not Auditable
+W14B;UtranCell;updateLocator;1;Not Auditable
+W14B;UtranCell;utranCellPosition;1;Not Auditable
+W14B;UtranCell;absPrioCellRes.cellReselectionPriority;3;Global
+W14B;UtranCell;absPrioCellRes.measIndFach;2;Global
+W14B;UtranCell;absPrioCellRes.sPrioritySearch1;62;Global
+W14B;UtranCell;absPrioCellRes.sPrioritySearch2;0;Global
+W14B;UtranCell;absPrioCellRes.threshServingLow;16;Global
+W14B;UtranCell;accessClassesBarredCs;0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0;Global
+W14B;UtranCell;accessClassesBarredPs;0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0;Global
+W14B;UtranCell;accessClassNBarred;0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0;Global
+W14B;UtranCell;admBlockRedirection.gsmRrc;0;Global
+W14B;UtranCell;admBlockRedirection.rrc;1;Global
+W14B;UtranCell;admBlockRedirection.speech;1;Global
+W14B;UtranCell;agpsEnabled;1;Global
+W14B;UtranCell;amrNbSelector;0;Global
+W14B;UtranCell;amrWbRateDlMax;12650;Global
+W14B;UtranCell;amrWbRateUlMax;12650;Global
+W14B;UtranCell;anrIafUtranCellConfig.anrEnabled;0;Global
+W14B;UtranCell;anrIafUtranCellConfig.relationAddEnabled;0;Global
+W14B;UtranCell;aseDlAdm;500;Global
+W14B;UtranCell;aseLoadThresholdUlSpeech.amr12200;0;Global
+W14B;UtranCell;aseLoadThresholdUlSpeech.amr5900;100;Global
+W14B;UtranCell;aseLoadThresholdUlSpeech.amr7950;0;Global
+W14B;UtranCell;aseLoadThresholdUlSpeech.amrWb12650;100;Global
+W14B;UtranCell;aseLoadThresholdUlSpeech.amrWb8850;100;Global
+W14B;UtranCell;aseUlAdm;NonHicap=500 / Hicap=200;Global
+W14B;UtranCell;autoAcbEnabled;1;Global
+W14B;UtranCell;autoAcbMaxPsClassesToBar;10;Global
+W14B;UtranCell;autoAcbMinRcssrInput;2;Global
+W14B;UtranCell;autoAcbRcssrThresh;60;Global
+W14B;UtranCell;autoAcbRcssrWeight;2;Global
+W14B;UtranCell;autoAcbRtwpThresh;-50;Global
+W14B;UtranCell;autoAcbRtwpWeight;10;Global
+W14B;UtranCell;bchPower;-31;Global
+W14B;UtranCell;cbsSchedulePeriodLength;32;Global
+W14B;UtranCell;cellBroadcastSac;Cell_ID ;Global
+W14B;UtranCell;cellReserved;0;Global
+W14B;UtranCell;codeLoadThresholdDlSf128;0;Global
+W14B;UtranCell;compModeAdm;30;Global
+W14B;UtranCell;ctchAdmMargin;0;Global
+W14B;UtranCell;ctchOccasionPeriod;188;Global
+W14B;UtranCell;cyclicAcb.acbEnabled;0;Global
+W14B;UtranCell;cyclicAcb.rotationGroupSize;5;Global
+W14B;UtranCell;cyclicAcbCs.acbEnabled;0;Global
+W14B;UtranCell;cyclicAcbCs.rotationGroupSize;5;Global
+W14B;UtranCell;cyclicAcbPs.acbEnabled;0;Global
+W14B;UtranCell;cyclicAcbPs.rotationGroupSize;5;Global
+W14B;UtranCell;dchIflsMarginCode;10;Global
+W14B;UtranCell;dchIflsMarginPower;10;Global
+W14B;UtranCell;dchIflsThreshCode;50;Global
+W14B;UtranCell;dchIflsThreshPower;50;Global
+W14B;UtranCell;dlCodeAdm;80 / Aktham=95;Global
+W14B;UtranCell;dlCodeOffloadLimit;80;Global
+W14B;UtranCell;dlPowerOffloadLimit;80;Global
+W14B;UtranCell;dmcrEnabled;0;Global
+W14B;UtranCell;dnclEnabled;1;Global
+W14B;UtranCell;downswitchTimer;-1;Global
+W14B;UtranCell;eulNonServingCellUsersAdm;CBU=26 / DUW=100;Global
+W14B;UtranCell;eulServingCellUsersAdm;CBU = 32 / DUW=96;Global
+W14B;UtranCell;eulServingCellUsersAdmTti2;4;Global
+W14B;UtranCell;fachMeasOccaCycLenCoeff;4;Global
+W14B;UtranCell;hardIfhoCorr;3;Global
+W14B;UtranCell;hcsSib3Config.hcsPrio;0;Global
+W14B;UtranCell;hcsSib3Config.qHcs;0;Global
+W14B;UtranCell;hcsSib3Config.sSearchHcs;-105;Global
+W14B;UtranCell;hcsUsage.connectedMode;0;Global
+W14B;UtranCell;hcsUsage.idleMode;1;Global
+W14B;UtranCell;hoType;CHECK-RNDCIQ;Global
+W14B;UtranCell;hsdpaUsersAdm;CBU=96 / DUW=128;Global
+W14B;UtranCell;hsdpaUsersOffloadLimit;80;Global
+W14B;UtranCell;hsdschInactivityTimer;-1 or 1;Global
+W14B;UtranCell;hsdschInactivityTimerCpc;-1;Global
+W14B;UtranCell;hsIflsDownswitchTrigg.fastDormancy;0;Global
+W14B;UtranCell;hsIflsDownswitchTrigg.toFach;0;Global
+W14B;UtranCell;hsIflsDownswitchTrigg.toUra;0;Global
+W14B;UtranCell;hsIflsHighLoadThresh;100;Global
+W14B;UtranCell;hsIflsMarginUsers;0;Global
+W14B;UtranCell;hsIflsPowerLoadThresh;0;Global
+W14B;UtranCell;hsIflsRedirectLoadLimit;0;Global
+W14B;UtranCell;hsIflsSpeechMultiRabTrigg;0;Global
+W14B;UtranCell;hsIflsThreshUsers;20;Global
+W14B;UtranCell;hsIflsTrigger.fromFach;1;Global
+W14B;UtranCell;hsIflsTrigger.fromUra;1;Global
+W14B;UtranCell;iFCong;621;Global
+W14B;UtranCell;iFHyst;6000;Global
+W14B;UtranCell;iflsCpichEcnoThresh;-24;Global
+W14B;UtranCell;iflsMode;0;Global
+W14B;UtranCell;iflsRedirectUarfcn;0;Global
+W14B;UtranCell;inactivityTimeMultiPsInteractive;-1;Global
+W14B;UtranCell;inactivityTimer;-1 or 5;Global
+W14B;UtranCell;inactivityTimerEnhUeDrx;-1;Global
+W14B;UtranCell;inactivityTimerPch;-1;Global
+W14B;UtranCell;individualOffset;0;Global
+W14B;UtranCell;interFreqFddMeasIndicator;1;Global
+W14B;UtranCell;interPwrMax;30;Global
+W14B;UtranCell;interRate;800;Global
+W14B;UtranCell;loadBasedHoSupport;0;Global
+W14B;UtranCell;loadBasedHoType;0;Global
+W14B;UtranCell;loadSharingGsmFraction;NonHicap=100 / Hicap=50 / GSMSUNSET=0;Global
+W14B;UtranCell;loadSharingGsmThreshold;NonHicap=99 / Hicap=59 / GSMSUNSET=100;Global
+W14B;UtranCell;loadSharingMargin;0;Global
+W14B;UtranCell;maxPwrMax;30;Global
+W14B;UtranCell;maxRate;1600;Global
+W14B;UtranCell;maxTxPowerUl;24;Global
+W14B;UtranCell;minimumRate;400;Global
+W14B;UtranCell;minPwrMax;NonHicap=-15 / Hicap=-30;Global
+W14B;UtranCell;minPwrRl;NonHicap=-120,HiCap=-210;Global
+W14B;UtranCell;nOutSyncInd;256;Global
+W14B;UtranCell;pagingPermAccessCtrl.locRegAcb;0:0:0:0:0:0:0:0:0:0:0:0:0:0:0;Global
+W14B;UtranCell;pagingPermAccessCtrl.locRegRestr;0;Global
+W14B;UtranCell;pagingPermAccessCtrl.pagingRespRestr;0;Global
+W14B;UtranCell;pathlossThreshold;130;Global
+W14B;UtranCell;primarySchPower;-18;Global
+W14B;UtranCell;pwrAdm;NonHicap=75,HiCap=85;Global
+W14B;UtranCell;pwrHyst;300;Global
+W14B;UtranCell;pwrLoadThresholdDlSpeech.amr12200;50;Global
+W14B;UtranCell;pwrLoadThresholdDlSpeech.amr5900;100;Global
+W14B;UtranCell;pwrLoadThresholdDlSpeech.amr7950;0;Global
+W14B;UtranCell;pwrLoadThresholdDlSpeech.amrWb12650;100;Global
+W14B;UtranCell;pwrLoadThresholdDlSpeech.amrWb8850;100;Global
+W14B;UtranCell;pwrOffset;NonHicap=15,HiCap=5;Global
+W14B;UtranCell;qHyst1;2;Global
+W14B;UtranCell;qHyst2;4;Global
+W14B;UtranCell;qQualMin;-24;Global
+W14B;UtranCell;qRxLevMin;-115;Global
+W14B;UtranCell;qualMeasQuantity;2;Global
+W14B;UtranCell;rateSelectionPsInteractive.channelType;0;Global
+W14B;UtranCell;rateSelectionPsInteractive.dlPrefRate;16;Global
+W14B;UtranCell;rateSelectionPsInteractive.ulPrefRate;16;Global
+W14B;UtranCell;redirectUarfcn;0;Global
+W14B;UtranCell;releaseAseDl;1;Global
+W14B;UtranCell;releaseAseDlNg;3;Global
+W14B;UtranCell;releaseRedirect;3;Global
+W14B;UtranCell;releaseRedirectEutraTriggers.csFallbackCsRelease;1;Global
+W14B;UtranCell;releaseRedirectEutraTriggers.csFallbackDchToFach;0;Global
+W14B;UtranCell;releaseRedirectEutraTriggers.dchToFach;0;Global
+W14B;UtranCell;releaseRedirectEutraTriggers.fachToUra;0;Global
+W14B;UtranCell;releaseRedirectEutraTriggers.fastDormancy;0;Global
+W14B;UtranCell;releaseRedirectEutraTriggers.normalRelease;0;Global
+W14B;UtranCell;releaseRedirectHsIfls;0;Global
+W14B;UtranCell;reportingRange1a;0;Global
+W14B;UtranCell;reportingRange1b;0;Global
+W14B;UtranCell;rlFailureT;10;Global
+W14B;UtranCell;rrcLcEnabled;1;Global
+W14B;UtranCell;secondarySchPower;-35;Global
+W14B;UtranCell;servDiffRrcAdmHighPrioProfile;2;Global
+W14B;UtranCell;sf128Adm;128;Global
+W14B;UtranCell;sf16Adm;16;Global
+W14B;UtranCell;sf16AdmUl;50;Global
+W14B;UtranCell;sf16gAdm;16;Global
+W14B;UtranCell;sf32Adm;32;Global
+W14B;UtranCell;sf4AdmUl;hicap=0 / nonhicap=6;Global
+W14B;UtranCell;sf64AdmUl;100;Global
+W14B;UtranCell;sf8Adm;2;Global
+W14B;UtranCell;sf8AdmUl;HiCap=0 / nonhicap>=8;Global
+W14B;UtranCell;sf8gAdmUl;8;Global
+W14B;UtranCell;sHcsRat;-105;Global
+W14B;UtranCell;sInterSearch;25;Global
+W14B;UtranCell;sIntraSearch;25;Global
+W14B;UtranCell;spare;1;Not Auditable
+W14B;UtranCell;spareA;0:0:0:0:0:0:0:0:0:0;Global
+W14B;UtranCell;sRatSearch;0;Global
+W14B;UtranCell;srbAdmExempt;0;Global
+W14B;UtranCell;standAloneSrbSelector;1;Global
+W14B;UtranCell;tCell;0,1,2,3,5,6,7,8;Global
+W14B;UtranCell;timeToTrigger1a;-1;Global
+W14B;UtranCell;timeToTrigger1b;-1;Global
+W14B;UtranCell;tmCongAction;2000;Global
+W14B;UtranCell;tmCongActionNg;800;Global
+W14B;UtranCell;tmInitialG;3000;Global
+W14B;UtranCell;treSelection;2;Global
+W14B;UtranCell;ulRateLimitTimer;850=95 / 1900=120;Global
+W14B;UtranCell;uraRef;1;Not Auditable
+W14B;UtranCell;transmissionScheme;1;Not Auditable
+W14B;UtranCell;usedFreqThresh2dEcno;hho_if_c=-15/sho_c=-23 / HiCap=-24;Global
+W14B;UtranCell;usedFreqThresh2dRscp;-115;Global
+W14B;UtranCell;userLabel;DAS_ISE, iDAS_BAU, iDAS_HiCap, oDAS_BAU, oDAS_HiCap;Global
+W14B;UtranRelation;UtranRelationId;1;Not Auditable
+W14B;UtranRelation;createdBy;1;Not Auditable
+W14B;UtranRelation;creationTime;1;Not Auditable
+W14B;UtranRelation;frequencyRelationType;1;Not Auditable
+W14B;UtranRelation;nodeRelationType;1;Not Auditable
+W14B;UtranRelation;selectionPriority;1;Not Auditable
+W14B;UtranRelation;utranCellRef;1;Not Auditable
+W14B;UtranRelation;hcsSib11Config.hcsPrio;0;Global
+W14B;UtranRelation;hcsSib11Config.penaltyTime;NonFemto = 0 / Femto = 20;Global
+W14B;UtranRelation;hcsSib11Config.qHcs;0;Global
+W14B;UtranRelation;hcsSib11Config.temporaryOffset1;0;Global
+W14B;UtranRelation;hcsSib11Config.temporaryOffset2;0;Global
+W14B;UtranRelation;loadSharingCandidate;0;Global
+W14B;UtranRelation;qOffset1sn;0;Global
+W14B;UtranRelation;qOffset2sn;0;Global
+W14B;UtranRelation;mobilityRelationType;0;Global
+W14B;MultiCarrier;MultiCarrierId;1;Not Auditable
+W14B;MultiCarrier;eulMultiCarrierSupport;1;Not Auditable
+W14B;MultiCarrier;multiCarrierMimoSupport;1;Not Auditable
+W14B;MultiCarrier;multiCarrierSupport;1;Not Auditable
+W14B;MultiCarrier;cellRefsDl;1;Not Auditable
+W14B;MultiCarrier;cellRefsDlSecondBand;1;Not Auditable
+W14B;MultiCarrier;dualBandMultiCarrierSupport;1;Not Auditable
+W14B;IubEdch;IubEdchId;1;Not Auditable
+W14B;IubEdch;userLabel;1;Not Auditable
+W14B;IubEdch;edchDataFrameDelayThreshold;60;Global
+W14B;NodeSynch;NodeSynchId;1;Not Auditable
+W14B;NodeSynch;availabilityStatus;1;Not Auditable
+W14B;NodeSynch;maxTransportDelay;1;Not Auditable
+W14B;NodeSynch;operationalState;1;Not Auditable
+W14B;NodeSynch;phaseMeasurement;1;Not Auditable
+W14B;NodeSynch;staticDelay;1;Not Auditable
+W14B;NodeSynch;timeStamp;1;Not Auditable
+W14B;NodeSynch;transportDelayMeasDiscRatio;1;Not Auditable
+W14B;NodeSynch;userLabel;1;Not Auditable
+W14B;NodeSynch;fixedWindowSizeInit;12;Global
+W14B;NodeSynch;fixedWindowSizeSup;10;Global
+W14B;NodeSynch;maxAllowedIubRtt;500;Global
+W14B;NodeSynch;phaseDiffThreshold;50;Global
+W14B;NodeSynch;sampleIntervalInit;100;Global
+W14B;NodeSynch;sampleIntervalSup;10;Global
+W14B;NodeSynch;slidingWindowSize;100;Global
+####;####;####;####;####
+####;RBS;RBS;RBS;####
+####;####;####;####;####
+W14B;Aich;AichId;1;Not Auditable
+W14B;Aich;availabilityStatus;1;Not Auditable
+W14B;Aich;dbchDeviceSetRef;1;Not Auditable
+W14B;Aich;operationalState;1;Not Auditable
+W14B;AiDevice;AiDeviceId;1;Not Auditable
+W14B;AiDevice;administrativeState;1;Not Auditable
+W14B;AiDevice;availabilityStatus;1;Not Auditable
+W14B;AiDevice;operationalState;1;Not Auditable
+W14B;AiDevice;reservedBy;1;Not Auditable
+W14B;AiDevice;usageState;1;Not Auditable
+W14B;AiDevice;userLabel;1;Not Auditable
+W14B;AiDeviceSet;AiDeviceSetId;1;Not Auditable
+W14B;AiDeviceSet;availabilityStatus;1;Not Auditable
+W14B;AiDeviceSet;operationalState;1;Not Auditable
+W14B;AiDeviceSet;usageState;1;Not Auditable
+W14B;AiDeviceSet;userLabel;1;Not Auditable
+W14B;AlmDevice;AlmDeviceId;1;Not Auditable
+W14B;AlmDevice;administrativeState;1;Not Auditable
+W14B;AlmDevice;alarmSlogan;1;Not Auditable
+W14B;AlmDevice;almDeviceStatus;1;Not Auditable
+W14B;AlmDevice;availabilityStatus;1;Not Auditable
+W14B;AlmDevice;normallyOpen;1;Not Auditable
+W14B;AlmDevice;operationalState;1;Not Auditable
+W14B;AlmDevice;perceivedSeverity;1;Not Auditable
+W14B;AlmDevice;probableCause;1;Not Auditable
+W14B;AlmDevice;usageState;1;Not Auditable
+W14B;AlmDevice;userLabel;1;Not Auditable
+W14B;AlmDeviceSet;AlmDeviceSetId;1;Not Auditable
+W14B;AlmDeviceSet;availabilityStatus;1;Not Auditable
+W14B;AlmDeviceSet;operationalState;1;Not Auditable
+W14B;AlmDeviceSet;userLabel;1;Not Auditable
+W14B;AntennaBranch;AntennaBranchId;1;Not Auditable
+W14B;AntennaBranch;mechanicalAntennaTilt;1;Not Auditable
+W14B;AntennaBranch;reservedBy;1;Not Auditable
+W14B;AntennaBranch;userLabel;1;Not Auditable
+W14B;AntennaBranch;verticalAntennaTilt;1;Not Auditable
+W14B;AntennaBranch;branchName;1;Not Auditable
+W14B;AntennaBranch;fqBandHighEdge;1;Not Auditable
+W14B;AntennaBranch;fqBandLowEdge;1;Not Auditable
+W14B;AntennaBranch;antennaSupervisionThreshold;NOT USED=0/RET WITH ASC=10/RU(CBU)=49/RRUW(DUW)=100;Local
+W14B;AntennaBranch;lowCurrentSupervision;1;Local
+W14B;AuxPlugInUnit;AuxPlugInUnitId;1;Not Auditable
+W14B;AuxPlugInUnit;administrativeState;1;Not Auditable
+W14B;AuxPlugInUnit;auType;1;Not Auditable
+W14B;AuxPlugInUnit;availabilityStatus;1;Not Auditable
+W14B;AuxPlugInUnit;faultIndicator;1;Not Auditable
+W14B;AuxPlugInUnit;greenLed;1;Not Auditable
+W14B;AuxPlugInUnit;hubPosition;1;Not Auditable
+W14B;AuxPlugInUnit;maintenanceIndicator;1;Not Auditable
+W14B;AuxPlugInUnit;operationalIndicator;1;Not Auditable
+W14B;AuxPlugInUnit;operationalState;1;Not Auditable
+W14B;AuxPlugInUnit;piuType;1;Not Auditable
+W14B;AuxPlugInUnit;plugInUnitRef1;1;Not Auditable
+W14B;AuxPlugInUnit;plugInUnitRef2;1;Not Auditable
+W14B;AuxPlugInUnit;position;1;Not Auditable
+W14B;AuxPlugInUnit;positionInformation;1;Not Auditable
+W14B;AuxPlugInUnit;positionRef;1;Not Auditable
+W14B;AuxPlugInUnit;productName;1;Not Auditable
+W14B;AuxPlugInUnit;productNumber;1;Not Auditable
+W14B;AuxPlugInUnit;productRevision;1;Not Auditable
+W14B;AuxPlugInUnit;productType;1;Not Auditable
+W14B;AuxPlugInUnit;productionDate;1;Not Auditable
+W14B;AuxPlugInUnit;redLed;1;Not Auditable
+W14B;AuxPlugInUnit;reservedBy;1;Not Auditable
+W14B;AuxPlugInUnit;reservedBy;1;Not Auditable
+W14B;AuxPlugInUnit;reservedBy;1;Not Auditable
+W14B;AuxPlugInUnit;reservedBy;1;Not Auditable
+W14B;AuxPlugInUnit;serialNumber;1;Not Auditable
+W14B;AuxPlugInUnit;uniqueHwId;1;Not Auditable
+W14B;AuxPlugInUnit;unitType;1;Not Auditable
+W14B;AuxPlugInUnit;userLabel;1;Not Auditable
+W14B;AuxPlugInUnit;yellowLed;1;Not Auditable
+W14B;Bch;BchId;1;Not Auditable
+W14B;Bch;availabilityStatus;1;Not Auditable
+W14B;Bch;operationalState;1;Not Auditable
+W14B;Carrier;CarrierId;1;Not Auditable
+W14B;Carrier;aiDeviceRef;1;Not Auditable
+W14B;Carrier;aiDeviceRef;1;Not Auditable
+W14B;Carrier;availabilityStatus;1;Not Auditable
+W14B;Carrier;badBerFramesDtxHsOlpc;1;Not Auditable
+W14B;Carrier;badBerFramesHsOlpc;1;Not Auditable
+W14B;Carrier;cellRange;1;Not Auditable
+W14B;Carrier;dbccDeviceRef;1;Not Auditable
+W14B;Carrier;dlBandwidth;1;Not Auditable
+W14B;Carrier;dlFilterProfile;1;Not Auditable
+W14B;Carrier;dlPowerOffsetCombinedCell;1;Not Auditable
+W14B;Carrier;dpclDevicesRef;1;Not Auditable
+W14B;Carrier;dpclDevicesRef;1;Not Auditable
+W14B;Carrier;eulLockedOptimalNoiseFloorEstimate;1;Not Auditable
+W14B;Carrier;airRateTypeSelector;1;Global
+W14B;Carrier;chQualOffset;14;GlobalOptional
+W14B;Carrier;cqiAdjustmentOn;TRUE;GlobalOptional
+W14B;Carrier;cqiErrors;0;GlobalOptional
+W14B;Carrier;cqiErrorsAbsent;0;GlobalOptional
+W14B;Carrier;defaultCqiHsFach;1;GlobalOptional
+W14B;Carrier;eulMaxOwnUuLoad;NonHicap = 100 / Hicap = 120;Global
+W14B;Carrier;eulMaxRotCoverage;NonHicap = 100 / Hicap = 500;Global
+W14B;Carrier;eulOptimalNoiseFloorLock.eulNoiseFloorLock;FALSE;GlobalOptional
+W14B;Carrier;eulOptimalNoiseFloorLock.eulOptimalNoiseFloorEstimate;-1040;GlobalOptional
+W14B;Carrier;eulSlidingWindowTime;72000;GlobalOptional
+W14B;Carrier;eulThermalLevelPrior;-1080..-800;Local
+W14B;Carrier;extraCompEnhUeDrx;10;GlobalOptional
+W14B;Carrier;extraCompForSigHsFach;10;GlobalOptional
+W14B;Carrier;extraCompHsFach;40;GlobalOptional
+W14B;Carrier;extraHsScchCompEnhUeDrx;10;GlobalOptional
+W14B;Carrier;extraHsScchCompForSigHsFach;10;GlobalOptional
+W14B;Carrier;extraHsScchCompHsFach;40;GlobalOptional
+W14B;Carrier;extraHsScchPowerForSrbOnHsdpa;0;GlobalOptional
+W14B;Carrier;extraPowerForSrbOnHsdpa;0;GlobalOptional
+W14B;Carrier;fccRotMarginHigh;40;GlobalOptional
+W14B;Carrier;fccRotMarginLow;25;GlobalOptional
+W14B;Carrier;hsdpaMcActivityBufferThreshold;2;GlobalOptional
+W14B;Carrier;hsdpaMcInactivityTimer;2;GlobalOptional
+W14B;Carrier;hsPowerMargin;0;GlobalOptional
+W14B;Carrier;hsScchMaxCodePower;-20;GlobalOptional
+W14B;Carrier;hsScchMinCodePower;-150;Global
+W14B;Carrier;minBitRate;-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1;GlobalOptional
+W14B;Carrier;minBitRateMinCqi;8;GlobalOptional
+W14B;Carrier;frequencyPlane;1;Not Auditable
+W14B;Carrier;maxDlPowerCapability;1;Not Auditable
+W14B;Carrier;minDlPowerCapability;1;Not Auditable
+W14B;Carrier;numOfDtxHsOlpc;1;Not Auditable
+W14B;Carrier;operationalState;1;Not Auditable
+W14B;Carrier;periodDtxHsOlpc;1;Not Auditable
+W14B;Carrier;reservedBy;1;Not Auditable
+W14B;Carrier;sirTargetStepHsOlpc;1;Not Auditable
+W14B;Carrier;tpaDeviceRef;1;Not Auditable
+W14B;Carrier;tpaDeviceRef;1;Not Auditable
+W14B;Carrier;trDeviceRef;1;Not Auditable
+W14B;Carrier;trDeviceRef;1;Not Auditable
+W14B;Carrier;ulBandwidth;1;Not Auditable
+W14B;Carrier;ulFilterProfile;1;Not Auditable
+W14B;Carrier;userLabel;1;Not Auditable
+W14B;Carrier;numberOfRxBranches;2;Global
+W14B;Carrier;numberOfTxBranches;2;Global
+W14B;Carrier;qualityCheckPower;0;GlobalOptional
+W14B;Carrier;queueSelectAlgorithm;3;GlobalOptional
+W14B;Carrier;schCongPeriodGbr;5;GlobalOptional
+W14B;Carrier;schCongThreshGbr;5;GlobalOptional
+W14B;Carrier;schCongThreshNonGbr;2;GlobalOptional
+W14B;Carrier;schMaxDelay;-1:-1:-1:-1:-1:100:10:-1:-1:-1:-1:-1:-1:-1:-1:-1;GlobalOptional
+W14B;Carrier;schMinPowerNonGbrHsUsers;0;GlobalOptional
+W14B;Carrier;schNoCongPeriodGbr;5;GlobalOptional
+W14B;Carrier;schNoCongThreshGbr;15;GlobalOptional
+W14B;Carrier;schPowerDeltaCongGbr;50;GlobalOptional
+W14B;Carrier;schPrioForAbsResSharing;15;GlobalOptional
+W14B;Carrier;schWeight;1:200:400:800:1600:400:400:1600:1:1:1:1:1:1:1:10000;GlobalOptional
+W14B;Carrier;throughputPqxHsFach;0:0:0:30:0:0:0:0:0:0:0:0:0:0:0;GlobalOptional
+W14B;CommContexts;CommContextsId;1;Not Auditable
+W14B;CommContexts;noOfCommContexts;1;Not Auditable
+W14B;ConfigurationVersion;ConfigurationVersionId;1;Not Auditable
+W14B;ConfigurationVersion;actionResult.actionId;1;Not Auditable
+W14B;ConfigurationVersion;actionResult.time;1;Not Auditable
+W14B;ConfigurationVersion;actionResult.invokedAction;1;Not Auditable
+W14B;ConfigurationVersion;actionResult.mainResult;1;Not Auditable
+W14B;ConfigurationVersion;actionResult.configurationVersionName;1;Not Auditable
+W14B;ConfigurationVersion;actionResult.pathToDetailedInformation;1;Not Auditable
+W14B;ConfigurationVersion;ConfigurationVersion;1;Not Auditable
+W14B;ConfigurationVersion;autoCreatedCVIsTurnedOn;1;Not Auditable
+W14B;ConfigurationVersion;configAdmCountdown;1;Not Auditable
+W14B;ConfigurationVersion;configOpCountdown;1;Not Auditable
+W14B;ConfigurationVersion;corruptedUpgradePackages;1;Not Auditable
+W14B;ConfigurationVersion;currentDetailedActivity;1;Not Auditable
+W14B;ConfigurationVersion;currentLoadedConfigurationVersion;1;Not Auditable
+W14B;ConfigurationVersion;currentMainActivity;1;Not Auditable
+W14B;ConfigurationVersion;currentUpgradePackage;1;Not Auditable
+W14B;ConfigurationVersion;executingCv;1;Not Auditable
+W14B;ConfigurationVersion;lastCreatedCv;1;Not Auditable
+W14B;ConfigurationVersion;listOfHtmlResultFiles;1;Not Auditable
+W14B;ConfigurationVersion;missingUpgradePackages;1;Not Auditable
+W14B;ConfigurationVersion;restoreConfirmationDeadline;1;Not Auditable
+W14B;ConfigurationVersion;rollbackInitCounterValue;1;Not Auditable
+W14B;ConfigurationVersion;rollbackInitTimerValue;1;Not Auditable
+W14B;ConfigurationVersion;startableConfigurationVersion;1;Not Auditable
+W14B;ConfigurationVersion;timeForAutoCreatedCV;1;Not Auditable
+W14B;ConfigurationVersion;userLabel;1;Not Auditable
+W14B;ConfigurationVersion;rollbackOn;TRUE;Global
+W14B;DigitalCable;DigitalCableId;1;Not Auditable
+W14B;DigitalCable;connectedToObjectARef;1;Not Auditable
+W14B;DigitalCable;connectedToObjectBRef;1;Not Auditable
+W14B;DigitalCable;objectAConnector;1;Not Auditable
+W14B;DigitalCable;objectBConnector;1;Global
+W14B;DigitalCable;userLabel;1;Not Auditable
+W14B;DownlinkBaseBandPool;DownlinkBaseBandPoolId;1;Not Auditable
+W14B;DownlinkBaseBandPool;maxNumADchReservation;DUW = 250 / CBU = TX dependant;Local
+W14B;DownlinkBaseBandPool;radioInterfaceBoardRef;1;Not Auditable
+W14B;DownlinkBaseBandPool;userLabel;1;Not Auditable
+W14B;DpclDevice;DpclDeviceId;1;Not Auditable
+W14B;DpclDevice;availabilityStatus;1;Not Auditable
+W14B;DpclDevice;operationalState;1;Not Auditable
+W14B;DpclDevice;reservedBy;1;Not Auditable
+W14B;DpclDevice;usageState;1;Not Auditable
+W14B;DpclDevice;userLabel;1;Not Auditable
+W14B;DpclDeviceSet;DpclDeviceSetId;1;Not Auditable
+W14B;DpclDeviceSet;availabilityStatus;1;Not Auditable
+W14B;DpclDeviceSet;operationalState;1;Not Auditable
+W14B;DpclDeviceSet;usageState;1;Not Auditable
+W14B;DpclDeviceSet;userLabel;1;Not Auditable
+W14B;EDchResources;EDchResourcesId;1;Not Auditable
+W14B;EDchResources;availabilityStatus;1;Not Auditable
+W14B;EDchResources;eDbchDeviceSetRef;1;Not Auditable
+W14B;EDchResources;eScDeviceSetRef;1;Not Auditable
+W14B;EDchResources;operationalState;1;Not Auditable
+W14B;Fach;FachId;1;Not Auditable
+W14B;Fach;availabilityStatus;1;Not Auditable
+W14B;Fach;operationalState;1;Not Auditable
+W14B;HsDschResources;HsDschResourcesId;1;Not Auditable
+W14B;HsDschResources;availabilityStatus;1;Not Auditable
+W14B;HsDschResources;operationalState;1;Not Auditable
+W14B;Iub;IubId;1;Not Auditable
+W14B;Iub;controlPlaneTransportOption.atm;1;Not Auditable
+W14B;Iub;controlPlaneTransportOption.ipV4;1;Not Auditable
+W14B;Iub;rbsId;1;Not Auditable
+W14B;Iub;userLabel;1;Not Auditable
+W14B;Iub;userPlaneIpResourceRef;1;Not Auditable
+W14B;Iub;userPlaneTransportOption.atm;1;Not Auditable
+W14B;Iub;userPlaneTransportOption.ipV4;1;Not Auditable
+W14B;IubDataStreams;IubDataStreamsId;1;Not Auditable
+W14B;IubDataStreams;hsAqmCongCtrlSpiOnOff;0:1:1:1:1:0:0:1:0:0:0:0:0:0:0:0;Global
+W14B;IubDataStreams;hsDataFrameDelayThreshold;1;Not Auditable
+W14B;IubDataStreams;hsRbrDiscardProbability;0;Global
+W14B;IubDataStreams;hsRbrWeight;100:100:50:100:200:100:100:100:100:100:100:100:100:100:100:100;Global
+W14B;IubDataStreams;maxHsRate;1;Not Auditable
+W14B;IubDataStreams;noOfCommonStreams;1;Not Auditable
+W14B;IubDataStreams;noOfDedicatedStreams;1;Not Auditable
+W14B;IubDataStreams;schHsFlowControlOnOff;0:1:1:1:1:0:0:1:0:0:0:0:0:0:0:0;Global
+W14B;NbapCommon;NbapCommonId;1;Not Auditable
+W14B;NbapCommon;activeBearer;1;Not Auditable
+W14B;NbapCommon;auditRetransmissionT;1;Not Auditable
+W14B;NbapCommon;availabilityStatus;1;Not Auditable
+W14B;NbapCommon;l2EstablishReqRetryT;1;Not Auditable
+W14B;NbapCommon;l2EstablishSupervisionT;1;Not Auditable
+W14B;NbapCommon;l3EstablishSupervisionT;1;Not Auditable
+W14B;NbapCommon;operationalState;1;Not Auditable
+W14B;NbapCommon;sctpRef;1;Not Auditable
+W14B;NbapCommon;uniSaalTpRef1;1;Not Auditable
+W14B;NbapCommon;uniSaalTpRef2;1;Not Auditable
+W14B;NbapCommon;userLabel;1;Not Auditable
+W14B;NbapDedicated;NbapDedicatedId;1;Not Auditable
+W14B;NbapDedicated;activeBearer;1;Not Auditable
+W14B;NbapDedicated;availabilityStatus;1;Not Auditable
+W14B;NbapDedicated;l2EstablishReqRetryT;1;Not Auditable
+W14B;NbapDedicated;l2EstablishSupervisionT;1;Not Auditable
+W14B;NbapDedicated;operationalState;1;Not Auditable
+W14B;NbapDedicated;sctpRef;1;Not Auditable
+W14B;NbapDedicated;uniSaalTpRef1;1;Not Auditable
+W14B;NbapDedicated;uniSaalTpRef2;1;Not Auditable
+W14B;NbapDedicated;userLabel;1;Not Auditable
+W14B;NodeBFunction;NodeBFunctionId;1;Not Auditable
+W14B;NodeBFunction;alarmSuppressed;1;Not Auditable
+W14B;NodeBFunction;analogUlAlignIsActive;1;Not Auditable
+W14B;NodeBFunction;availableRbsChannelElementsDownlink;1;Not Auditable
+W14B;NodeBFunction;availableRbsChannelElementsUplink;1;Not Auditable
+W14B;NodeBFunction;branchDiffAbsTime;1;Not Auditable
+W14B;NodeBFunction;branchDiffMeasTime;1;Not Auditable
+W14B;NodeBFunction;collectTraceStatus;1;Not Auditable
+W14B;NodeBFunction;dlGraceTimeLeft;1;Not Auditable
+W14B;NodeBFunction;dlLicFractBbPool;100:0:0:0/ 67:33:0:0/ 50:50:0:0;Local
+W14B;NodeBFunction;dlLicFractBbPool2;0/33/50;Local
+W14B;NodeBFunction;dlLimitedByLicenseLevel;1;Not Auditable
+W14B;NodeBFunction;eul2msFirstSchedStep;160;Global
+W14B;NodeBFunction;eulDchMaxAllowedSchRate;1600;Global
+W14B;NodeBFunction;eulFachInitialRate;34;Global
+W14B;NodeBFunction;eulFachMaxDynAllocation;1;Not Auditable
+W14B;NodeBFunction;eulFachMinAllocation;1;Not Auditable
+W14B;NodeBFunction;eulInactivityHighRateTime;20;Global
+W14B;NodeBFunction;eulInactivityLowRateTime;100;Global
+W14B;NodeBFunction;eulLowRate;32;Global
+W14B;NodeBFunction;eulLowUsageTime;1;Not Auditable
+W14B;NodeBFunction;eulMaxAllowedSchRate;3968/4480/5120;Local
+W14B;NodeBFunction;eulMaxShoRate;1472;Global
+W14B;NodeBFunction;eulMaxTotalProtectedRate;640;Global
+W14B;NodeBFunction;eulNoReschUsers;5;Global
+W14B;NodeBFunction;eulNonServHwRate;384;Global
+W14B;NodeBFunction;eulSchedulingWeight;1:200:400:800:1600:1600:400:400:1:1:1:1:1:1:1:1;Global
+W14B;NodeBFunction;eulTargetRate;128;Global
+W14B;NodeBFunction;featureState16Qam;1;Global
+W14B;NodeBFunction;featureState64Qam;1;Global
+W14B;NodeBFunction;featureStateAbsoluteTimeSynch;NonMSMM = 0 / MSMM = 1;Global
+W14B;NodeBFunction;featureStateCeCapEul;1;Global
+W14B;NodeBFunction;featureStateCeEfficiencyEul;0;Global
+W14B;NodeBFunction;featureStateCeExtForEul;0;Global
+W14B;NodeBFunction;featureStateCombinedCell;0;Global
+W14B;NodeBFunction;featureStateDlPowerControlEul;1;Global
+W14B;NodeBFunction;featureStateDualStackIub;1;Not Auditable
+W14B;NodeBFunction;featureStateDualTmaSupport;0;Global
+W14B;NodeBFunction;featureStateEul2msTti;0;Global
+W14B;NodeBFunction;featureStateEulForLargeRbsConfig;1;Global
+W14B;NodeBFunction;featureStateGrake;1;Global
+W14B;NodeBFunction;featureStateHsAqmCongCtrl;0;Global
+W14B;NodeBFunction;featureStateHsdpaFlexibleScheduler;1;Global
+W14B;NodeBFunction;featureStateHsdpaImprovedLinkAdaptation;1;Global
+W14B;NodeBFunction;featureStateHsdpaMcInterDuSched;0;Global
+W14B;NodeBFunction;featureStateHsdpaMinBitRate;0;Global
+W14B;NodeBFunction;featureStateHsdpaRbrQosProfiling;0;Global
+W14B;NodeBFunction;featureStateImprovedDAgc;0;Global
+W14B;NodeBFunction;featureStateIncreasedCellCarrierSupport;0;Global
+W14B;NodeBFunction;featureStateIncrNumHsCodes;1;Global
+W14B;NodeBFunction;featureStateIncreasedHsCodeCap;0;Global
+W14B;NodeBFunction;featureStateIntSuppAllBearers;1;Global
+W14B;NodeBFunction;featureStateIntSuppEul10ms;1;Global
+W14B;NodeBFunction;featureStateInterferenceSuppression;0;Global
+W14B;NodeBFunction;featureStateMbmsIubEfficiency;1;Not Auditable
+W14B;NodeBFunction;featureStateMixedMode;1;Not Auditable
+W14B;NodeBFunction;featureStatePerHarqProcessGrant;1;Global
+W14B;NodeBFunction;featureStatePsiCoverage;0;Global
+W14B;NodeBFunction;featureStateRbsMpLoadSharing;0;Global
+W14B;NodeBFunction;featureStateRetCascading;0;Global
+W14B;NodeBFunction;featureStateStandardizedRet;0;Global
+W14B;NodeBFunction;featureStateStandardizedTma;0;Global
+W14B;NodeBFunction;featureStateUlFcc;1;Global
+W14B;NodeBFunction;gpehOverloadProtEv;1;Not Auditable
+W14B;NodeBFunction;gpehRlsSupFailSyncEv;1;Not Auditable
+W14B;NodeBFunction;gpehRlsSupFoundSyncEv;1;Not Auditable
+W14B;NodeBFunction;gpehRlsSupLostSyncEv;1;Not Auditable
+W14B;NodeBFunction;gpehRlsSupStartedEv;1;Not Auditable
+W14B;NodeBFunction;gpehRlsSupSyncEv;1;Not Auditable
+W14B;NodeBFunction;gpehUlSyncReachedEv;1;Not Auditable
+W14B;NodeBFunction;gracePeriodLength;1;Not Auditable
+W14B;NodeBFunction;hsdpaMcInterDuSchedCapability;0;Global
+W14B;NodeBFunction;licenseCapacityChannelElementDl;1;Not Auditable
+W14B;NodeBFunction;licenseCapacityChannelElementUl;1;Not Auditable
+W14B;NodeBFunction;licenseCapacityNum100WPowerAmplifiers;1;Not Auditable
+W14B;NodeBFunction;licenseCapacityNum120WPowerAmplifiers;1;Not Auditable
+W14B;NodeBFunction;licenseCapacityNum40WPowerAmplifiers;6;Global
+W14B;NodeBFunction;licenseCapacityNum60WPowerAmplifiers;6;Global
+W14B;NodeBFunction;licenseCapacityNum80WPowerAmplifiers;1;Not Auditable
+W14B;NodeBFunction;licenseCapacityNumCarriers;6;Global
+W14B;NodeBFunction;licenseCapacityNumEulUsers;32;Global
+W14B;NodeBFunction;licenseCapacityNumHsPdschCodes;15;Global
+W14B;NodeBFunction;licenseCapacityNumHsdpaUsers;96;Global
+W14B;NodeBFunction;licenseCapacityRbsChannelElementsDownlink;1;Not Auditable
+W14B;NodeBFunction;licenseCapacityRbsChannelElementsUplink;1;Not Auditable
+W14B;NodeBFunction;licenseState16Qam;1;Global
+W14B;NodeBFunction;licenseState4wayRxDiversity;1;Global
+W14B;NodeBFunction;licenseState64Qam;1;Global
+W14B;NodeBFunction;licenseStateCeEfficiencyEul;0;Global
+W14B;NodeBFunction;licenseState64QamMimo;1;Not Auditable
+W14B;NodeBFunction;licenseStateCeCapEul;1;Not Auditable
+W14B;NodeBFunction;licenseStateCeExtForEul;0;Global
+W14B;NodeBFunction;licenseStateChannelElementDl;1;Not Auditable
+W14B;NodeBFunction;licenseStateChannelElementUl;1;Not Auditable
+W14B;NodeBFunction;licenseStateCombinedCell;0;Global
+W14B;NodeBFunction;licenseStateConfigurableCarrierBandwidth;1;Not Auditable
+W14B;NodeBFunction;licenseStateCpc;1;Global
+W14B;NodeBFunction;licenseStateCsasr;0;Global
+W14B;NodeBFunction;licenseStateDchEulBalancing;1;Global
+W14B;NodeBFunction;licenseStateDlPowerControlEul;1;Global
+W14B;NodeBFunction;licenseStateDualStackIub;1;Not Auditable
+W14B;NodeBFunction;licenseStateDualTmaSupport;0;Global
+W14B;NodeBFunction;licenseStateEnhUeDrx;0;Global
+W14B;NodeBFunction;licenseStateEnhancedLayer2;1;Global
+W14B;NodeBFunction;licenseStateEnhancedUplinkIntroduction;1;Global
+W14B;NodeBFunction;licenseStateEul2msTti;1;Global
+W14B;NodeBFunction;licenseStateEulDynRot;1;Not Auditable
+W14B;NodeBFunction;licenseStateEulFach;1;Global
+W14B;NodeBFunction;licenseStateEulForLargeRbsConfig;1;Global
+W14B;NodeBFunction;licenseStateEulMc;0;Global
+W14B;NodeBFunction;licenseStateEulTdScheduling;1;Global
+W14B;NodeBFunction;licenseStateFDpchSrbOnHsdpa;1;Global
+W14B;NodeBFunction;licenseStateGrake;1;Global
+W14B;NodeBFunction;licenseStateHsAqmCongCtrl;1;Not Auditable
+W14B;NodeBFunction;licenseStateHsFach;1;Global
+W14B;NodeBFunction;licenseStateHsOlpc;1;Global
+W14B;NodeBFunction;licenseStateHsdpaDbMc;1;Not Auditable
+W14B;NodeBFunction;licenseStateHsdpaDynamicCodeAllocation;1;Global
+W14B;NodeBFunction;licenseStateHsdpaFlexibleScheduler;1;Global
+W14B;NodeBFunction;licenseStateHsdpaImprovedLinkAdaptation;1;Global
+W14B;NodeBFunction;licenseStateHsdpaIncrementalRedundancy;1;Global
+W14B;NodeBFunction;licenseStateHsdpaMc;0;Global
+W14B;NodeBFunction;licenseStateHsdpaMcInactCtrl;0;Global
+W14B;NodeBFunction;licenseStateHsdpaMcInterDuSched;0;Global
+W14B;NodeBFunction;licenseStateHsdpaMcMimo;1;Not Auditable
+W14B;NodeBFunction;licenseStateHsdpaMinBitRate;1;Global
+W14B;NodeBFunction;licenseStateHsdpaPowerSharing;0;Global
+W14B;NodeBFunction;licenseStateHsdpaRbrQosProfiling;1;Global
+W14B;NodeBFunction;licenseStateImprovedLayer2;1;Global
+W14B;NodeBFunction;licenseStateIncreasedCellCarrierSupport;0;Global
+W14B;NodeBFunction;licenseStateIncrNumHsCodes;1;Global
+W14B;NodeBFunction;licenseStateIncreasedHsCodeCap;0;Global
+W14B;NodeBFunction;licenseStateIntSuppAllBearers;1;Global
+W14B;NodeBFunction;licenseStateIntSuppEul10ms;1;Global
+W14B;NodeBFunction;licenseStateInterferenceSuppression;1;Global
+W14B;NodeBFunction;licenseStateNbir;0;Global
+W14B;NodeBFunction;licenseStateMbmsIubEfficiency;1;Not Auditable
+W14B;NodeBFunction;licenseStateMimo;1;Not Auditable
+W14B;NodeBFunction;licenseStateMixedMode;1;Not Auditable
+W14B;NodeBFunction;licenseStateNum100WPowerAmplifiers;1;Not Auditable
+W14B;NodeBFunction;licenseStateNum120WPowerAmplifiers;1;Not Auditable
+W14B;NodeBFunction;licenseStateNum40WPowerAmplifiers;1;Global
+W14B;NodeBFunction;licenseStateNum60WPowerAmplifiers;1;Global
+W14B;NodeBFunction;licenseStateNum80WPowerAmplifiers;1;Not Auditable
+W14B;NodeBFunction;licenseStateNumCarriers;1;Global
+W14B;NodeBFunction;licenseStateNumEulUsers;1;Global
+W14B;NodeBFunction;licenseStateNumHsPdschCodes;1;Global
+W14B;NodeBFunction;licenseStateNumHsdpaUsers;1;Global
+W14B;NodeBFunction;licenseStatePerHarqProcessGrant;1;Global
+W14B;NodeBFunction;licenseStatePsiCoverage;1;Not Auditable
+W14B;NodeBFunction;licenseStateRbsChannelElementsDownlink;1;Not Auditable
+W14B;NodeBFunction;licenseStateRbsChannelElementsUplink;1;Not Auditable
+W14B;NodeBFunction;licenseStateRbsMpLoadSharing;1;Not Auditable
+W14B;NodeBFunction;licenseStateRetCascading;1;Not Auditable
+W14B;NodeBFunction;licenseStateRttPositioning;1;Global
+W14B;NodeBFunction;licenseStateStandardizedRet;1;Not Auditable
+W14B;NodeBFunction;licenseStateStandardizedTma;1;Not Auditable
+W14B;NodeBFunction;licenseStateUlFcc;1;Global
+W14B;NodeBFunction;nbapDscp;1;Not Auditable
+W14B;NodeBFunction;sharedEquipmentController;1;Not Auditable
+W14B;NodeBFunction;spare;0:0:0:0:0:0:0:0:0:0;Global
+W14B;NodeBFunction;steeredHsAllocation;true/ false;Local
+W14B;NodeBFunction;technicianPresent;1;Not Auditable
+W14B;NodeBFunction;toaeCch;195;Global
+W14B;NodeBFunction;toaeDch;170;Global
+W14B;NodeBFunction;ulGraceTimeLeft;1;Not Auditable
+W14B;NodeBFunction;ulLicFractBbPool;100:0:0:0/ 67:33:0:0/ 50:50:0:0;Local
+W14B;NodeBFunction;ulLicFractBbPool2;0/33/50;Local
+W14B;NodeBFunction;ulLimitedByLicenseLevel;1;Not Auditable
+W14B;NodeBFunction;userLabel;1;Not Auditable
+W14B;Pccpch;PccpchId;1;Not Auditable
+W14B;Pccpch;availabilityStatus;1;Not Auditable
+W14B;Pccpch;dbchDeviceSetRef;1;Not Auditable
+W14B;Pccpch;operationalState;1;Not Auditable
+W14B;Pch;PchId;1;Not Auditable
+W14B;Pch;availabilityStatus;1;Not Auditable
+W14B;Pch;operationalState;1;Not Auditable
+W14B;Pcpich;PcpichId;1;Not Auditable
+W14B;Pcpich;availabilityStatus;1;Not Auditable
+W14B;Pcpich;operationalState;1;Not Auditable
+W14B;Pich;PichId;1;Not Auditable
+W14B;Pich;availabilityStatus;1;Not Auditable
+W14B;Pich;dbchDeviceSetRef;1;Not Auditable
+W14B;Pich;operationalState;1;Not Auditable
+W14B;Prach;PrachId;1;Not Auditable
+W14B;Prach;availabilityStatus;1;Not Auditable
+W14B;Prach;operationalState;1;Not Auditable
+W14B;Prach;ubchDeviceSetRef;1;Not Auditable
+W14B;PredefRbsScannerGpeh;PredefRbsScannerGpehId;1;Not Auditable
+W14B;PredefRbsScannerGpeh;fileLocation;1;Not Auditable
+W14B;PredefRbsScannerGpeh;maxFileSize;1;Not Auditable
+W14B;PredefRbsScannerGpeh;maxStorageSize;270;Global
+W14B;PredefRbsScannerGpeh;scanState;1;Not Auditable
+W14B;PredefRbsScannerGpeh;userLabel;1;Not Auditable
+W14B;Psch;PschId;1;Not Auditable
+W14B;Psch;availabilityStatus;1;Not Auditable
+W14B;Psch;operationalState;1;Not Auditable
+W14B;Rach;RachId;1;Not Auditable
+W14B;Rach;availabilityStatus;1;Not Auditable
+W14B;Rach;operationalState;1;Not Auditable
+W14B;RadioLinks;RadioLinksId;1;Not Auditable
+W14B;RadioLinks;noOfRadioLinks;1;Not Auditable
+W14B;RbsConfiguration;RbsConfigurationId;1;Not Auditable
+W14B;RbsConfiguration;configFaultReason;1;Not Auditable
+W14B;RbsConfiguration;rbsConfigLevel;1;Not Auditable
+W14B;RbsConfiguration;rbsLogicalName;1;Not Auditable
+W14B;RbsLocalCell;airRateTypeSelector;1;GlobalOptional
+W14B;RbsLocalCell;availabilityStatus;1;Not Auditable
+W14B;RbsLocalCell;carrierRef;1;Not Auditable
+W14B;RbsLocalCell;carriersRef;1;Not Auditable
+W14B;RbsLocalCell;cellRange;1;Not Auditable
+W14B;RbsLocalCell;chQualOffset;14;GlobalOptional
+W14B;RbsLocalCell;cpcCapability;1;Not Auditable
+W14B;RbsLocalCell;cqiAdjustmentOn;TRUE;GlobalOptional
+W14B;RbsLocalCell;cqiErrors;0;GlobalOptional
+W14B;RbsLocalCell;cqiErrorsAbsent;0;GlobalOptional
+W14B;RbsLocalCell;defaultCqiHsFach;1;GlobalOptional
+W14B;RbsLocalCell;eDch2msTtiCapability;1;Not Auditable
+W14B;RbsLocalCell;eDchCapability;1;Not Auditable
+W14B;RbsLocalCell;eHichMinCodePower;-220;Global
+W14B;RbsLocalCell;eulDynRotRange.eulDynRotMax;1;Not Auditable
+W14B;RbsLocalCell;eulDynRotRange.eulDynRotMin;1;Not Auditable
+W14B;RbsLocalCell;eulFachMaxDcchDtchTime;20;GlobalOptional
+W14B;RbsLocalCell;eulFachNumOfDecoders;1;GlobalOptional
+W14B;RbsLocalCell;eulMaxNoSchEDch;100;Global
+W14B;RbsLocalCell;eulMaxOwnUuLoad;NonHicap = 80 / Hicap = 100;Global
+W14B;RbsLocalCell;eulMaxRotCoverage;NonHicap = 100 / Hicap = 500;Global
+W14B;RbsLocalCell;eulMaxTdUsers;4;GlobalOptional
+W14B;RbsLocalCell;eulMcActivationDelayTime;1;Not Auditable
+W14B;RbsLocalCell;eulMcCapability;1;Not Auditable
+W14B;RbsLocalCell;eulMinMarginCoverage;10;Global
+W14B;RbsLocalCell;eulNoERgchGroups;8;Global
+W14B;RbsLocalCell;eulOptimalNoiseFloorLock.eulNoiseFloorLock;FALSE;Global
+W14B;RbsLocalCell;eulOptimalNoiseFloorLock.eulOptimalNoiseFloorEstimate;-1040;Global
+W14B;RbsLocalCell;eulSlidingWindowTime;72000;Global
+W14B;RbsLocalCell;eulTdSchedulingFactor;0;Global
+W14B;RbsLocalCell;eulThermalLevelPrior;-1080...-800;Global
+W14B;RbsLocalCell;extraCompEnhUeDrx;10;GlobalOptional
+W14B;RbsLocalCell;extraCompForSigHsFach;10;GlobalOptional
+W14B;RbsLocalCell;extraCompHsFach;40;GlobalOptional
+W14B;RbsLocalCell;extraHsScchCompEnhUeDrx;10;GlobalOptional
+W14B;RbsLocalCell;extraHsScchCompForSigHsFach;10;GlobalOptional
+W14B;RbsLocalCell;extraHsScchCompHsFach;40;GlobalOptional
+W14B;RbsLocalCell;extraHsScchPowerForSrbOnHsdpa;0;GlobalOptional
+W14B;RbsLocalCell;extraPowerForSrbOnHsdpa;0;GlobalOptional
+W14B;RbsLocalCell;fDpchCapability;1;Not Auditable
+W14B;RbsLocalCell;featureState4wayRxDiversity;0;Global
+W14B;RbsLocalCell;featureState64QamMimo;0;Global
+W14B;RbsLocalCell;featureStateCpc;1;Global
+W14B;RbsLocalCell;featureStateDchEulBalancing;0;Global
+W14B;RbsLocalCell;featureStateEnhancedLayer2;1;Global
+W14B;RbsLocalCell;featureStateEnhUeDrx;0;Global
+W14B;RbsLocalCell;featureStateEulDynRot;1;Not Auditable
+W14B;RbsLocalCell;featureStateEulFach;0;Global
+W14B;RbsLocalCell;featureStateEulMc;0;Global
+W14B;RbsLocalCell;featureStateEulTdScheduling;1;Global
+W14B;RbsLocalCell;featureStateFDpchSrbOnHsdpa;1;Global
+W14B;RbsLocalCell;featureStateHsdpa3Mc;1;Not Auditable
+W14B;RbsLocalCell;featureStateHsdpaDb3Mc;1;Not Auditable
+W14B;RbsLocalCell;featureStateHsdpaDbMc;0;Global
+W14B;RbsLocalCell;featureStateHsdpaDynamicCodeAllocation;1;Global
+W14B;RbsLocalCell;featureStateHsdpaIncrementalRedundancy;1;Global
+W14B;RbsLocalCell;featureStateHsdpaMc;0;Global
+W14B;RbsLocalCell;featureStateHsdpaMcInactCtrl;0;Global
+W14B;RbsLocalCell;featureStateHsdpaMcMimo;0;Global
+W14B;RbsLocalCell;featureStateHsdpaPowerSharing;0;Global
+W14B;RbsLocalCell;featureStateHsFach;0;Global
+W14B;RbsLocalCell;featureStateHsOlpc;0;Global
+W14B;RbsLocalCell;featureStateImprovedLayer2;0;Global
+W14B;RbsLocalCell;featureStateNbir;0;Global
+W14B;RbsLocalCell;featureStateMimo;1;Not Auditable
+W14B;RbsLocalCell;hsCodeResourceId;1;Not Auditable
+W14B;RbsLocalCell;hsdpaCapability;1;Global
+W14B;RbsLocalCell;hsdpaDbMcCapability;1;Not Auditable
+W14B;RbsLocalCell;hsdpaDb3McCapability;1;Not Auditable
+W14B;RbsLocalCell;hsdpaMcActivityBufferThreshold;2;Global
+W14B;RbsLocalCell;hsdpaMcCapability;1;Not Auditable
+W14B;RbsLocalCell;hsdpa3McCapability;1;Not Auditable
+W14B;RbsLocalCell;hsdpaMcInactivityTimer;2;Global
+W14B;RbsLocalCell;hsdpaPowerSharingCapability;1;Not Auditable
+W14B;RbsLocalCell;hsdpaMcMimoCapability;1;Not Auditable
+W14B;RbsLocalCell;hsPowerMargin;0;Global
+W14B;RbsLocalCell;hsScchMaxCodePower;-20;Global
+W14B;RbsLocalCell;hsScchMinCodePower;-150;Global
+W14B;RbsLocalCell;localCellId;1;Not Auditable
+W14B;RbsLocalCell;maxDlPowerCapability;1;Not Auditable
+W14B;RbsLocalCell;maxEAgchPowerDl;-140;Global
+W14B;RbsLocalCell;maxEAgchPowerDlTti2;-80;Global
+W14B;RbsLocalCell;maxNumEulUsers;CBU = 32 / DUW = 96;Global
+W14B;RbsLocalCell;maxNumHsdpaUsers;CBU = 96 / DUW = 128;Global
+W14B;RbsLocalCell;maxNumHsPdschCodes;15;Global
+W14B;RbsLocalCell;maxUserEHichERgchPowerDl;-140;Global
+W14B;RbsLocalCell;maxUserEHichPowerDlTti2;-80;Global
+W14B;RbsLocalCell;minBitRate;-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1;Global
+W14B;RbsLocalCell;minBitRateMinCqi;8;Global
+W14B;RbsLocalCell;minDlPowerCapability;1;Not Auditable
+W14B;RbsLocalCell;minSpreadingFactor;1;Not Auditable
+W14B;RbsLocalCell;ocnsIsActive;FALSE;Global
+W14B;RbsLocalCell;ocnsIsConfigured;FALSE;Global
+W14B;RbsLocalCell;powerSharingMaxTransmissionPower;1;Not Auditable
+W14B;RbsLocalCell;operationalState;1;Not Auditable
+W14B;RbsLocalCell;qualityCheckPower;0;Global
+W14B;RbsLocalCell;qualityCheckPowerEHich;0;Global
+W14B;RbsLocalCell;queueSelectAlgorithm;3;Global
+W14B;RbsLocalCell;RbsLocalCellId;1;Not Auditable
+W14B;RbsLocalCell;rbsSynchronizationRef;1;Not Auditable
+W14B;RbsLocalCell;schCongPeriodGbr;5;GlobalOptional
+W14B;RbsLocalCell;schCongThreshGbr;5;GlobalOptional
+W14B;RbsLocalCell;schCongThreshNonGbr;2;GlobalOptional
+W14B;RbsLocalCell;schMaxDelay;-1:-1:-1:-1:-1:100:10:-1:-1:-1:-1:-1:-1:-1:-1:-1;GlobalOptional
+W14B;RbsLocalCell;schMinPowerNonGbrHsUsers;0;GlobalOptional
+W14B;RbsLocalCell;schNoCongPeriodGbr;5;GlobalOptional
+W14B;RbsLocalCell;schNoCongThreshGbr;15;GlobalOptional
+W14B;RbsLocalCell;schPowerDeltaCongGbr;50;GlobalOptional
+W14B;RbsLocalCell;schPrioForAbsResSharing;15;GlobalOptional
+W14B;RbsLocalCell;schWeight;1:200:400:800:1600:400:400:1600:1:1:1:1:1:1:1:10000;GlobalOptional
+W14B;RbsLocalCell;throughputPqxHsFach;0:0:0:30:0:0:0:0:0:0:0:0:0:0:0;GlobalOptional
+W14B;RbsLocalCell;userLabel;1;Not Auditable
+W14B;RbsSynchronization;RbsSynchronizationId;1;Not Auditable
+W14B;RbsSynchronization;masterTu;1;Not Auditable
+W14B;RbsSynchronization;nodeIsStable;1;Not Auditable
+W14B;RbsSynchronization;nodeIsSynchronized;1;Not Auditable
+W14B;RbsSynchronization;plugInUnitRef1;1;Not Auditable
+W14B;RbsSynchronization;plugInUnitRef2;1;Not Auditable
+W14B;RbsSynchronization;timDeviceRef1;1;Not Auditable
+W14B;RbsSynchronization;timDeviceRef2;1;Not Auditable
+W14B;RbsSynchronization;userLabel;1;Not Auditable
+W14B;ReliableProgramUniter;ReliableProgramUniterId;1;Not Auditable
+W14B;ReliableProgramUniter;admActiveSlot;1;Not Auditable
+W14B;ReliableProgramUniter;admPassiveSlot;1;Not Auditable
+W14B;ReliableProgramUniter;normalisation;1;Not Auditable
+W14B;ReliableProgramUniter;operationalMode;1;Not Auditable
+W14B;ReliableProgramUniter;reliableProgramLabel;1;Not Auditable
+W14B;ReliableProgramUniter;replication;1;Not Auditable
+W14B;ReliableProgramUniter;reservedBy;1;Not Auditable
+W14B;ReliableProgramUniter;rpuId;1;Not Auditable
+W14B;ReliableProgramUniter;switchOver;1;Not Auditable
+W14B;ReliableProgramUniter;userLabel;1;Not Auditable
+W14B;RruDeviceGroup;RruDeviceGroupId;1;Not Auditable
+W14B;RruDeviceGroup;availabilityStatus;1;Not Auditable
+W14B;RruDeviceGroup;hwTestResult;1;Not Auditable
+W14B;RruDeviceGroup;operationalState;1;Not Auditable
+W14B;RruDeviceGroup;usageState;1;Not Auditable
+W14B;RruDeviceGroup;userLabel;1;Not Auditable
+W14B;RruDeviceGroup;RruDeviceGroupId;1;Not Auditable
+W14B;RruDeviceGroup;availabilityStatus;1;Not Auditable
+W14B;RruDeviceGroup;hwTestResult;1;Not Auditable
+W14B;RruDeviceGroup;operationalState;1;Not Auditable
+W14B;RruDeviceGroup;usageState;1;Not Auditable
+W14B;RruDeviceGroup;userLabel;1;Not Auditable
+W14B;RruDeviceGroup;RruDeviceGroupId;1;Not Auditable
+W14B;RruDeviceGroup;availabilityStatus;1;Not Auditable
+W14B;RruDeviceGroup;hwTestResult;1;Not Auditable
+W14B;RruDeviceGroup;operationalState;1;Not Auditable
+W14B;RruDeviceGroup;usageState;1;Not Auditable
+W14B;RruDeviceGroup;userLabel;1;Not Auditable
+W14B;Sccpch;SccpchId;1;Not Auditable
+W14B;Sccpch;availabilityStatus;1;Not Auditable
+W14B;Sccpch;dbchDeviceSetRef;1;Not Auditable
+W14B;Sccpch;operationalState;1;Not Auditable
+W14B;Sector;SectorId;1;Not Auditable
+W14B;Sector;availabilityStatus;1;Not Auditable
+W14B;Sector;band;1;Not Auditable
+W14B;Sector;beamDirection;1;Not Auditable
+W14B;Sector;geoDatum;1;Not Auditable
+W14B;Sector;height;1;Not Auditable
+W14B;Sector;latHemisphere;0;Global
+W14B;Sector;latitude;1;Not Auditable
+W14B;Sector;lineRate;1;Not Auditable
+W14B;Sector;longitude;1;Not Auditable
+W14B;Sector;maxInternalUlGainOn;FALSE;Global
+W14B;Sector;mixedModeRadio;FALSE;Global
+W14B;Sector;numberOfSectorAntennas;1;Global
+W14B;Sector;numberOfTxBranches;1;Not Auditable
+W14B;Sector;operationalState;1;Not Auditable
+W14B;Sector;proceduralStatus;1;Not Auditable
+W14B;Sector;radioBuildingBlock;1;Not Auditable
+W14B;Sector;reservedBy;1;Not Auditable
+W14B;Sector;retDevicesRef;1;Not Auditable
+W14B;Sector;sectorAntennasRef;1;Not Auditable
+W14B;Sector;sectorConfiguration;1;Not Auditable
+W14B;Sector;sectorGroup;1;Not Auditable
+W14B;Sector;tmaDeviceRef;1;Not Auditable
+W14B;Sector;userLabel;1;Not Auditable
+W14B;SectorAntenna;SectorAntennaId;1;Not Auditable
+W14B;SectorAntenna;antennaType;1;Not Auditable
+W14B;SectorAntenna;beamDirection;1;Not Auditable
+W14B;SectorAntenna;reservedBy;1;Not Auditable
+W14B;SectorAntenna;userLabel;1;Not Auditable
+W14B;Ssch;SschId;1;Not Auditable
+W14B;Ssch;availabilityStatus;1;Not Auditable
+W14B;Ssch;operationalState;1;Not Auditable
+W14B;TpaDevice;TpaDeviceId;1;Not Auditable
+W14B;TpaDevice;availabilityStatus;1;Not Auditable
+W14B;TpaDevice;maxTotalOutputPower;40;Local
+W14B;TpaDevice;maxTotalOutputPowerLow;-1;Local
+W14B;TpaDevice;operationalState;1;Not Auditable
+W14B;TpaDevice;reservedBy;1;Not Auditable
+W14B;TpaDevice;usageState;1;Not Auditable
+W14B;TpaDevice;userLabel;1;Not Auditable
+W14B;TpaDeviceSet;TpaDeviceSetId;1;Not Auditable
+W14B;TpaDeviceSet;availabilityStatus;1;Not Auditable
+W14B;TpaDeviceSet;operationalState;1;Not Auditable
+W14B;TpaDeviceSet;userLabel;1;Not Auditable
+W14B;TrDevice;TrDeviceId;1;Not Auditable
+W14B;TrDevice;availabilityStatus;1;Not Auditable
+W14B;TrDevice;operationalState;1;Not Auditable
+W14B;TrDevice;reservedBy;1;Not Auditable
+W14B;TrDevice;usageState;1;Not Auditable
+W14B;TrDevice;userLabel;1;Not Auditable
+W14B;TrDeviceSet;TrDeviceSetId;1;Not Auditable
+W14B;TrDeviceSet;availabilityStatus;1;Not Auditable
+W14B;TrDeviceSet;operationalState;1;Not Auditable
+W14B;TrDeviceSet;usageState;1;Not Auditable
+W14B;TrDeviceSet;userLabel;1;Not Auditable
+W14B;XpProgram;XpProgramId;1;Not Auditable
+W14B;XpProgram;loadModule;1;Not Auditable
+W14B;XpProgram;userLabel;1;Not Auditable

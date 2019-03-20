@@ -1,0 +1,200 @@
+#!/bin/bash
+
+### //////////////////////////////////////////////////////////////////////// #
+# Application Name	: srtumts
+# Version						: v.1.0.1
+# Author 						: endang.ismaya@gmail.com
+# Date 							: July 01, 2015
+# Location 					: SanFrancisco, Indonesia
+# Comment						:	SRT UMTS CHECK
+#	History						: v.1.0.0
+#										: * Beta release.
+#										: v.1.0.1
+#										: * update Baseline and change directory
+### //////////////////////////////////////////////////////////////////////// #
+
+## Usage Function to send the information how to use the tool
+
+usage()
+{
+	cat <<END
+Usage : ./srtumts [-r RNC] [-s CELL]
+
+ -r : RNC Name
+ -s : List of SiteId separated by comma (,)
+ -h : show this help message
+ -v : show this tool version
+ 
+Examples:
+ 
+ ./srtumts -r RNC_A -s SiteA,SiteB
+ 
+END
+}
+
+showversion()
+{
+cat <<END
+
+###################### //// #
+# Application Name  : srtumts
+# Version           : v.1.0.1
+###################### //// #
+
+END
+}
+
+## error catch
+error ()
+{
+	## echo "Error: $1"
+	printf '\e[1;31m%s\e[0m\n\n' "Error: $1"
+	usage
+	exit $2
+} >&2
+
+## drawline function
+drawline ()
+{
+
+dt=`date '+%m/%d/%Y %H:%M:%S'`
+	
+	len="${#1} + 26"
+	
+	declare line=""
+	declare char="-"
+	for (( i=0; i<$len ; i++ )); do
+		line="${line}${char}"
+	done
+	printf "%s\n" "$line"
+	
+	printf '| \e[1;32m%s : %s\e[0m |\n' "$1" "$dt"
+	
+	line=""
+	char="-"
+	for (( i=0; i<$len ; i++ )); do
+		line="${line}${char}"
+	done
+	printf "%s\n" "$line"
+	
+}
+
+##// checking if no argument (filename)
+[[ $# -lt 1 ]] && { printf '\e[1;31m%s\e[0m\n\n' "Missing an argument." >&2; usage ; exit 1; }
+
+while getopts ":r:s:vh" opt; do
+	case $opt in
+		r)
+			RNCOPT="${OPTARG}"
+			;;
+		h)
+			usage
+			exit 0
+			;;
+		v)
+			showversion
+			exit 0
+			;;
+		s)
+			SITEOPT="${OPTARG}"
+			;;
+		:)
+			error "Option -${OPTARG} is missing an argument" 2
+			;;
+		\?)
+			error "Unknown option: -${OPTARG}" 3 
+			;;
+ 
+ 	esac
+ 	
+done   
+
+shift $((OPTIND -1))
+
+## processing sign
+drawline "Start "
+##-----------------
+#### //////////////////###############
+## variable declaration
+#### //////////////////###############
+RNC_NAME=${RNCOPT}
+## Folder List
+## -----------
+## 01_srtumts_nodelist
+## ------------------------------------
+FOL_NODELIST="01_srtumts_nodelist"
+FILE_NODELIST="nodelist"
+if [[ -d $FOL_NODELIST ]]; then
+ rm -rf ${FOL_NODELIST} >&2
+ mkdir ${FOL_NODELIST} >&2
+else
+ mkdir ${FOL_NODELIST} >&2
+fi
+## --------------------------------------
+## 02_srtumts_cmdlist
+## --------------------------------------
+FOL_CMDLIST="02_srtumts_cmdlist"
+FILE_CMDRNC="${RNC_NAME}"
+if [[ -d $FOL_CMDLIST ]]; then
+ rm -rf ${FOL_CMDLIST} >&2
+ mkdir ${FOL_CMDLIST} >&2
+else
+ mkdir ${FOL_CMDLIST} >&2
+fi
+IFS=',' read -a arrays <<< "$SITEOPT"
+if [[ ${#arrays[@]} -gt 1 ]]; then
+	SITE_LIST=${SITEOPT//","/"|"}
+else
+	SITE_LIST=${SITEOPT}
+fi
+
+echo "${RNC_NAME}" > "${FOL_NODELIST}/${FILE_NODELIST}"
+for i in "${arrays[@]}"
+do
+	echo "lt all" > "${FOL_CMDLIST}/${i}.mos"
+	echo "lma smo Carrier|RbsLocalCell|AntennaBranch|NodeBFunction|IubDataStreams|Sector|DownlinkBaseBandPool|PredefRbsScannerGpeh|TpaDevice|TpaDevice=1|TpaDevice=2|ConfigurationVersion|ExternalTma|DigitalCable" >> "${FOL_CMDLIST}/${i}.mos"
+	echo "for \$mo in smo" >> "${FOL_CMDLIST}/${i}.mos"
+	echo "get \$mo" >> "${FOL_CMDLIST}/${i}.mos"
+	echo "done" >> "${FOL_CMDLIST}/${i}.mos"
+	echo "${i}" >> "${FOL_NODELIST}/${FILE_NODELIST}"
+done
+
+echo "lt all" > "${FOL_CMDLIST}/${FILE_CMDRNC}.mos" 
+echo "lma smo ${SITE_LIST}" >> "${FOL_CMDLIST}/${FILE_CMDRNC}.mos"
+echo "for \$mo in smo" >> "${FOL_CMDLIST}/${FILE_CMDRNC}.mos"
+echo "get \$mo" >> "${FOL_CMDLIST}/${FILE_CMDRNC}.mos"
+echo "done" >> "${FOL_CMDLIST}/${FILE_CMDRNC}.mos"
+
+## --------------------------------------
+## 03_srtumts_logfile
+## --------------------------------------
+FOL_LOGFILE="03_srtumts_logfile"
+if [[ -d $FOL_LOGFILE ]]; then
+ rm -rf ${FOL_LOGFILE} >&2
+ mkdir ${FOL_LOGFILE} >&2
+else
+ mkdir ${FOL_LOGFILE} >&2
+fi
+
+## --------------------------------------
+## 04 MOBATCH
+## --------------------------------------
+## processing sign
+drawline "MOBATCH "
+##-------------------
+## echo "nohup /opt/ericsson/amos/moshell/mobatch -p 5 -t 120 "${FOL_NODELIST}/${FILE_NODELIST}" "run ${FOL_CMDLIST}/\$nodename.mos" "${FOL_LOGFILE}" "
+nohup /opt/ericsson/amos/moshell/mobatch -p 5 -t 120 "${FOL_NODELIST}/${FILE_NODELIST}" "run ${FOL_CMDLIST}/\$nodename.mos" ${FOL_LOGFILE}
+FOLS="${FOL_LOGFILE}/*.log"
+for f in $FOLS
+do
+	drawline "Extracting ${f}"
+	## java -classpath `cygpath -wp /home/Aldeqeela/Eclipse/OSSProject/bin` ei.srt.umts.Mainv101 $f
+	## java -cp /home/fs664c/endang/jvSRTUMTS Mainv101 $f
+	java -cp /home/ei400b/00_Tools/srtumts Mainv101 $f
+done
+
+nawk '{if (++dup[$0] == 1) print $0;}' ${FOL_LOGFILE}/GS_RESULT*.log > "${FOL_LOGFILE}/GS_ALL_RESULT.log"
+
+## processing sign
+drawline "Completed "
+##-------------------
